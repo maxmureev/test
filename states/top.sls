@@ -5,12 +5,12 @@ base:
 
 dev:
   '*dev*':
-    - java
+    - ntp
 
 stg:
   '*stg*':
-    - java
+    - ntp
 
 prd:
   '*prd*':
-    - java
+    - ntp
