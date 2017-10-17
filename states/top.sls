@@ -2,24 +2,24 @@ base:
   '*':
     - utils
     - prometheus.node_exporter
-  salt:
+  '*salt*':
     - utils
     - prometheus.node_exporter
     
 dev:
   '*dev*':
     - ntp
-  salt:
+  '*salt*':
     - ntp
     
 stg:
   '*stg*':
     - ntp
-  salt:
+  '*salt*':
     - ntp
     
 prd:
   '*prd*':
     - ntp
-  salt:
+  '*salt*':
     - ntp
