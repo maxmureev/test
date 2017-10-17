@@ -1,3 +1,3 @@
-dev:
-  '*dev*':
+stg:
+  '*stg*':
     - ntp
