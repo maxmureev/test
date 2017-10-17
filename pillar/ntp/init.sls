@@ -1,3 +1,3 @@
 ntp:
   ntpservers:
-      - 0.stg.ntp.org
+      - 1.stg.ntp.org
