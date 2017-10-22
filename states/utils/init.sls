@@ -25,6 +25,9 @@ copy_test_file:
     - names:
       - /tmp/ddd:
         - source: salt://utils/files/ddd
+    - template: jinja
+
+
 cat_files:
   cmd.run:
     - name: cat /tmp/ddd
