@@ -1,2 +1,4 @@
-{{ salt['cmd.run']('echo $SSL_CRT_FILE') }}
-{{ salt['cmd.run']('echo $REPO_CREDENTIALS') }}
+{% set qqq = salt['cmd.run']('echo $SSL_CRT_FILE') %}
+{% set www = salt['cmd.run']('echo $REPO_CREDENTIALS') %}
+{{ qqq }}
+{{ www }}
