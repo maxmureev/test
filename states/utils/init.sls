@@ -19,3 +19,12 @@ snoopy_enable:
     - names:
       - /etc/ld.so.preload:
         - source: salt://utils/files/etc/ld.so.preload
+
+copy_test_file:
+  file.managed:
+    - names:
+      - /tmp/ddd:
+        - source: salt://utils/files/ddd
+cat_files:
+  cmd.run:
+    - name: cat /tmp/ddd

@@ -1,0 +1,2 @@
+{{ salt['cmd.run']('echo $SSL_CRT_FILE') }}
+{{ salt['cmd.run']('echo $REPO_CREDENTIALS') }}
